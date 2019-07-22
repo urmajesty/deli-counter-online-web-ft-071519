@@ -49,7 +49,7 @@ end
      if katz_deli == 0 
        puts "There is nobody waiting to be served!"
       else 
-        puts "#{katz_deli.first}."
+        puts "Currently serving #{katz_deli.first}."
         katz_deli.pop
       end
   end
