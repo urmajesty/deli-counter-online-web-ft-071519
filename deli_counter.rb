@@ -50,7 +50,7 @@ end
        puts "There is nobody waiting to be served!"
       else 
         puts "#{line.first}."
-        line.shift
+        line.pop
       end
   end
    
