@@ -46,7 +46,7 @@ def take_a_number(line, joiner)
 end
    
    def now_serving(line)
-     if line = 0 
+     if line == 0 
        puts "There is nobody waiting to be served!"
       else 
         puts "line.first""
