@@ -49,6 +49,7 @@ end
      if katz_deli = 0
        puts "Currently serving #{katz_deli.first}."
        katz_deli.shift
+     end
      else
        puts "There is nobody waiting to be served!"
      
