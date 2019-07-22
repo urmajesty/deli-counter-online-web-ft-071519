@@ -45,12 +45,12 @@ def take_a_number(line, joiner)
   puts "Welcome, #{joiner}. You are number #{line.length} in line."
 end
    
-   def now_serving(line)
-     if line == 0 
+   def now_serving(katz_deli)
+     if katz_deli == 0 
        puts "There is nobody waiting to be served!"
       else 
-        puts "#{line.first}."
-        line.pop
+        puts "#{katz_deli.first}."
+        katz_deli.pop
       end
   end
    
