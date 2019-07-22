@@ -49,7 +49,8 @@ end
      if line = 0 
        puts "There is nobody waiting to be served!"
       else 
-        puts "#{name}""
+        puts "line.first""
+        line.shift
       end
   end
    
