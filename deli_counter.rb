@@ -41,10 +41,15 @@ def line(array)
   
 end
 def take_a_number(line, joiner)
-  line.push(joiner) # could say: "line << new_person"
+  line.push(joiner)
   puts "Welcome, #{joiner}. You are number #{line.length} in line."
 end
    
+   def now_serving 
+     if line > 0 
+       puts "{name}"
+      else 
+        puts "There is no one waiting to be served!"
    
    
    
