@@ -50,6 +50,7 @@ end
        puts "{name}"
       else 
         puts "There is no one waiting to be served!"
+      end
   end
    
    
