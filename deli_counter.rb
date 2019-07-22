@@ -46,10 +46,10 @@ def take_a_number(line, joiner)
 end
    
    def now_serving 
-     if line > 0 
-       puts "{name}"
+     if line = 0 
+       puts "There is nobody waiting to be served!"
       else 
-        puts "There is no one waiting to be served!"
+        puts "#{name}""
       end
   end
    
