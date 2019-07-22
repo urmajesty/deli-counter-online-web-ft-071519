@@ -46,7 +46,7 @@ def take_a_number(line, joiner)
 end
    
    def now_serving(katz_deli)
-     while katz_deli => 0  do
+     while katz_deli >= 0 
               puts "Currently serving #{katz_deli.first}."
         katz_deli.shift
         puts "There is nobody waiting to be served!"
