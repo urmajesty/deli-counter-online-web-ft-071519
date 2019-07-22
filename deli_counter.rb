@@ -54,7 +54,7 @@ end
       end
   end
    
-   
+   puts now_serving
    
    
    
