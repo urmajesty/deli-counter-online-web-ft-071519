@@ -46,12 +46,12 @@ def take_a_number(line, joiner)
 end
    
    def now_serving(katz_deli)
-     if katz_deli >= 0 
+     until katz_deli >= 0 
               puts "Currently serving #{katz_deli.first}."
         katz_deli.shift
       end
-    else   
-        puts "There is nobody waiting to be served!"
+    
+        return "There is nobody waiting to be served!"
       
       end
   end
