@@ -40,4 +40,14 @@ def line(array)
   end
   
 end
- def take_a_number
+ def take_a_number(katz_deli, "array")
+   array.each.do 
+    
+   katz.push ("#{counter}. #{joiners}")"
+   
+   
+   
+   
+   
+   
+   
